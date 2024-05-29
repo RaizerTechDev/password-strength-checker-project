@@ -5,7 +5,7 @@
 <div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45">
 
-[ ( Clique aqui e escolha a força da sua senha:`Password Strength Checker`) ]()
+[ ( Clique aqui e escolha a força da sua senha:`Password Strength Checker`) ](https://rafarz76dev-password-strength-checker.netlify.app/)
 
 <br>
 
@@ -25,10 +25,10 @@
 
 - Nesta plataforma, os usuários podem verificar a força de suas senhas em tempo real, recebendo classificações como Muito Fraca, Fraca, Moderada, Forte ou Muito Forte. As regras para a classificação das senhas incluem:
 
-- Contém letras minúsculas;
-- Contém letras maiúsculas;
-- Contém números;
-- Contém caracteres especiais.
+- Letras minúsculas;
+- Letras maiúsculas;
+- Números;
+- Caracteres especiais.
 
 ---
 
