@@ -60,10 +60,14 @@ passwordInput.addEventListener("input", function () {
 
 // Função para alternar a visibilidade da senha
 togglePassword.addEventListener("click", function () {
-  const type =
-    passwordInput.getAttribute("type") === "password" ? "text" : "password";
-  passwordInput.setAttribute("type", type);
+  
+  //// Verifica se o campo de senha não está vazio antes de alternar a visibilidade
+  if (passwordInput.value.length > 0) {
+    const type =
+      passwordInput.getAttribute("type") === "password" ? "text" : "password";
+    passwordInput.setAttribute("type", type);
 
-  // Alterna o ícone entre olho e olho fechado
-  this.classList.toggle("fa-eye-slash");
+    // Alterna o ícone entre olho e olho fechado
+    this.classList.toggle("fa-eye-slash");
+  }
 });
