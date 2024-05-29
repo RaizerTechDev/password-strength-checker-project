@@ -1,0 +1,14 @@
+Project-Strength-of-Password/
+│
+│
+│
+└── assets/
+│   ├── images/
+│   │   └── example-image.jpg
+│   │
+│   ├── js/
+│   │   └── script.js
+│   │
+│   └── styles/
+│       └── style.css
+└── index.html

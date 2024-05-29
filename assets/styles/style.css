@@ -1,0 +1,117 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #333;
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Q3N3U3enNvNm5reXQ1bHNzNGxic3B3YmEzdTN4czF4M3Zma3V2ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JohdINqS2GDglp0Eyx/giphy.gif");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #b5b3b3e0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.container__title {
+  color: rgb(102, 34, 165);
+  font-weight: bold;
+}
+
+.container__title:hover {
+  color: rgb(13, 45, 134);
+  transform: scale(
+    1.1
+  ); /* Aumenta a escala da imagem em 10% ao passar o mouse */
+  cursor: pointer;
+}
+
+.container__description {
+  color: #fff;
+  font-weight: bold;
+}
+
+.container__input-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.container__input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.container__toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333;
+}
+
+.container__strength-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.container__strength-indicator {
+  height: 100%;
+  width: 0;
+  background-color: #e70b0b;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.container__strength-text {
+  color: #082785;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.container__tip {
+  font-style: italic;
+  color: #e70b0b;
+  font-size: 0.8rem;
+  max-width: 70%;
+  margin: 0 auto 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .container__input {
+    padding: 8px;
+  }
+
+  .container__strength-bar {
+    height: 15px;
+  }
+
+  .container__strength-text {
+    font-size: 0.8rem;
+  }
+
+  .container__tip {
+    font-size: 0.7rem;
+  }
+}
