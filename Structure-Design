@@ -4,11 +4,13 @@ Project-Strength-of-Password/
 │
 └── assets/
 │   ├── images/
-│   │   └── example-image.jpg
+│   │   └── img.jpg
+│   │   └── readme-apresentaçao.gif 
 │   │
 │   ├── js/
 │   │   └── script.js
 │   │
 │   └── styles/
 │       └── style.css
+│       
 └── index.html
