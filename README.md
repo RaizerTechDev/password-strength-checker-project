@@ -36,6 +36,7 @@
 
 Adotei uma estrutura padrão de Arquitetura/Organização de Pastas para gerenciar os arquivos de forma eficiente. Utilizando HTML, CSS e JavaScript, implementei esta solução, consolidando meus conhecimentos e me preparando para desafios futuros com confiança.
 
+```
 Project-Strength-of-Password/
 │
 │
@@ -50,12 +51,13 @@ Project-Strength-of-Password/
 │ └── styles/
 │ └── style.css
 └── index.html
+```
 
 ---
 
 ### 📌 Aqui está uma pequena documentação do Projeto: Conceitos Aplicados👇
 
-▪ O código `HTML` consiste em uma estrutura organizada de elementos dentro de uma <div> com a classe .container. Elementos dentro desta <div>:
+▪ O código `HTML` consiste em uma estrutura organizada de elementos dentro de uma `<div>` com a classe .container. Elementos dentro desta `<div>`:
 1.Título. 2. Descrição. 3. Campo de Entrada da Senha. 4. Ícone de Alternância da Senha. 5. Barra Força da Senha. 6. Indicador para Força da Senha. 7. Regras da Senha
 
 🚀Copy code

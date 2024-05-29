@@ -60,7 +60,6 @@ passwordInput.addEventListener("input", function () {
 
 // Função para alternar a visibilidade da senha
 togglePassword.addEventListener("click", function () {
-  
   //// Verifica se o campo de senha não está vazio antes de alternar a visibilidade
   if (passwordInput.value.length > 0) {
     const type =
